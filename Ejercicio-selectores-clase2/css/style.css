@@ -1,0 +1,45 @@
+/* Selector de id */
+#sub {
+    color: blue;
+    font-size: 20px;
+  }
+  /* Selector de clase */
+  .paragraph {
+    color: #a506f5;
+    font-size: 20px;
+  }
+  /* Selector de etiqueta o selector de elemento */
+  h1 {
+    color: red;
+    font-size: 15px;
+  }
+  /* Selector descendente */
+  .secondary-container .MainText {
+    color: #06f599;
+    font-size: 20px;
+  }
+  /* Selector de atributo */
+  input[type="text"] {
+    border: 4px solid #06f599;
+    font-size: 20px;
+  }
+  /* Selector de atributo */
+  input[type="number"] {
+    border: 4px solid #064ef5;
+    font-size: 20px;
+  }
+  /* Selectores de hijos directos */
+  ul > li {
+    border-bottom: 5px dotted #0652f5;
+  }
+  /* Selector de hermanos directos */
+  .main-sub-text + h3 {
+    color: blueviolet;
+  }
+  /* Selector de hermanos no directos (virgulilla) */
+  .main-other-text ~ h3 {
+    color: blueviolet;
+  }
+  
+  
+  
