@@ -39,7 +39,6 @@ h2 {
     height: 20px; 
     font-family: Arial;;
 }
-
 #txt{
     font-size: 20px;
     padding-right: 60px;
@@ -86,21 +85,21 @@ ul a{
     text-align: right;
     padding: 0px 15px;
  }
- #texto{
+#texto{
     color: orangered;
     font-size: 50px;
     font-family: Arial;
     font-weight: bold;
     margin: 30px;
  }
- #textoIzqu{
+#textoIzqu{
     text-align: right;
     font-size: 50px;
     font-family: Arial;
     font-weight: bold;
     margin: 30px;
  }
- #textoIzqu u{
+#textoIzqu u{
     text-decoration: underline coral;
 }
 #computer{
