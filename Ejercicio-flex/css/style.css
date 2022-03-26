@@ -1,0 +1,18 @@
+.img-new { 
+    width: 500px;
+    height: auto;
+}
+.float-left {
+    float: left;
+}
+.clear {
+    clear: both;
+}
+.bg-default {
+    float: left;
+    background-color: rgb(255, 169, 39);
+    width: 400px;
+    margin: 20px 40px;
+    padding: 50px;
+    text-align: center;
+}

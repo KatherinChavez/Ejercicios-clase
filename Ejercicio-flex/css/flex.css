@@ -1,0 +1,40 @@
+.main-container {
+    background-color: rgb(235, 235, 235);
+    padding: 40px 0;
+    flex-wrap: wrap;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.item {
+    flex-grow: 1;
+    background-color: rgb(141, 71, 255);
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    margin: 10px 3px;
+    text-align: center;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.flex-grow-2 {
+    flex-grow: 2;
+}
+
+.flex-grow-3 {
+    flex-grow: 3;
+}
+
+.flex-grow-4 {
+    flex-grow: 4;
+}
+
+.empty-container {
+    min-width: 300px;
+}
