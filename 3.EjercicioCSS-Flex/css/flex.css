@@ -1,0 +1,25 @@
+html, body {
+    height:100%;
+}
+body {
+    background-image: radial-gradient(circle at 120.71% 50%, #ff9a53 0, #ff8d55 12.5%, #ff7c52 25%, #ff654d 37.5%, #f94646 50%, #ea1a40 62.5%, #de0040 75%, #d50043 87.5%, #cf004a 100%);
+
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 280px 1px 355px 1px;
+}
+.item {
+    flex-grow: 2;
+    color: white;
+    text-align: center;
+}
+.item h1{
+    font-size: 70px;
+    font-family: Helvetica Narrow, sans-serif;
+}
+.item p{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+}

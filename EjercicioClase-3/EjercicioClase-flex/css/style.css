@@ -1,0 +1,33 @@
+body {
+    background-color: #000;
+    color: white;
+    font-family: 'TT Hoves SL',sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+.first-line {
+    display: flex;
+}
+.item {
+    flex-basis: 50%;
+    margin-bottom: 40px;
+}
+.second-line {
+    height: 200px;
+    display: flex;
+}
+.nav-footer {
+    display: flex;
+    padding-right: 80px;
+}
+.nav-footer a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(105, 105, 105);
+    margin-right: 16px;
+}
+.third-line {
+    display: flex;
+    font-size: 15px;
+    padding-top: 80px;
+}
