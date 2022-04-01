@@ -1,5 +1,5 @@
 html, body {
-    height:100%;
+    min-height: 100px ;
 }
 body {
     background-image: radial-gradient(circle at 120.71% 50%, #ff9a53 0, #ff8d55 12.5%, #ff7c52 25%, #ff654d 37.5%, #f94646 50%, #ea1a40 62.5%, #de0040 75%, #d50043 87.5%, #cf004a 100%);
