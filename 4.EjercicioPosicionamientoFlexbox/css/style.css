@@ -1,0 +1,145 @@
+body{
+    background-color: #e6e6e0;
+    height: 100px;
+}
+.display-flex {
+    display: flex;
+}
+.justify-evenly {
+    justify-content: space-evenly;
+}
+.align-center {
+    align-items: center;
+}
+.mainContainer{
+    justify-content: center;
+    background-color: rgb(213, 216, 216);
+    flex-wrap: wrap;
+}
+.align-items{
+ align-items: flex-end;   
+}
+.mainContainer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid rgb(213, 216, 216);
+    flex-wrap: wrap;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: rgb(10, 3, 3);
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a span{
+    border-bottom: 4px solid #42DDBE;
+    color: black;
+}
+.container{
+    height: 550px;
+    background-color: rgb(52, 180, 240);
+    padding: 9px 41px;
+    margin: 30px 180px;
+    flex-wrap: wrap;
+}
+.bloques{
+    flex-grow:2;
+    background-color: white;
+    text-align: center;
+    border-radius: 3%;
+    padding-bottom: 20px;
+    margin: 0px 5px;
+}
+.bloques p{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(52, 180, 240);
+    padding: 25px;
+    margin: 2px 1px;
+    text-align: center;
+}
+.bloques p span{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.bloques,.bloqueDos{
+    margin-top:28px;
+    margin-bottom: 27px;
+}
+.boton{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(52, 180, 240);
+    border-color: rgb(52, 180, 240);
+    background-color: white;
+    width: 280px;
+    height: 40px;
+     margin: 10px ;
+}
+.circulo{
+    background-color: rgb(156, 213, 240);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
+    padding: 50px;
+}
+.circulo p{
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.main{
+    justify-content: center;
+    background-color: rgb(213, 216, 216);
+}
+.main ul{
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid rgb(213, 216, 216);
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.main-container {
+    height: 600px;
+    background-color: #f1f1f1;
+    flex-wrap: wrap;
+  }
+@media screen and (min-width: 601px) and (max-width: 800px){
+    .bloques{
+      background-color: white;
+    }
+}
+@media screen and (max-width: 600px) {
+    .bloques{
+      flex-grow: 1;
+      margin-bottom: 20px;
+      background-color: white;
+    }
+}
+
