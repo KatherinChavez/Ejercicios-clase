@@ -16,9 +16,6 @@ body{
     background-color: rgb(213, 216, 216);
     flex-wrap: wrap;
 }
-.align-items{
- align-items: flex-end;   
-}
 .mainContainer ul{
     list-style-type: none;
     margin: 0;
@@ -84,7 +81,7 @@ li a span{
     background-color: white;
     width: 280px;
     height: 40px;
-     margin: 10px ;
+    margin: 10px ;
 }
 .circulo{
     background-color: rgb(156, 213, 240);
@@ -109,7 +106,7 @@ li a span{
     background-color: rgb(213, 216, 216);
 }
 .main ul{
-   list-style-type: none;
+    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
