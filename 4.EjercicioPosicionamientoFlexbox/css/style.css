@@ -1,6 +1,7 @@
 body{
     background-color: #e6e6e0;
     height: 100px;
+    width: 100;
 }
 .display-flex {
     display: flex;
