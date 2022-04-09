@@ -1,3 +1,6 @@
+body{
+    margin: 90px 90px;
+}
 .mainContainer{
     background-color: black; 
     padding: 0px 60px 0px 60px;
