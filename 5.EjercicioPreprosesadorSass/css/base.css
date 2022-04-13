@@ -1,0 +1,22 @@
+.header {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: blueviolet;
+}
+
+.body {
+  padding: 40px 0;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.item {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  border-style: solid;
+  margin: 8px 3px;
+  text-align: center;
+}
+/*# sourceMappingURL=base.css.map */

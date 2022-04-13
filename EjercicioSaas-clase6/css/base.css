@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+  padding: 10% 10%;
+  background-color: #f39806;
+}
+
+.item {
+  background-color: #ebebeb;
+}
+
+.item p {
+  color: #f39806;
+}
+
+.item h2 {
+  color: #f39806;
+}
+/* sourceMappingURL=base.css.map */

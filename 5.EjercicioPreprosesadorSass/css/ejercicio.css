@@ -1,0 +1,26 @@
+.d-flex {
+    display: flex;
+}
+.header{
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.body {
+    padding: 40px 0;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex-grow: 1;
+    border-style: solid;
+    background-color: rgb(11, 238, 223);
+    /*color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;*/
+    margin: 8px 3px;
+    text-align: center;
+}
+
