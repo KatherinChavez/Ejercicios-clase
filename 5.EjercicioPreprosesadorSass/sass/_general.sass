@@ -1,15 +1,18 @@
 .header
-    flex-wrap: wrap
-    text-align: center
-    background-color: blueviolet
+    @extend %titulo
+    background-color: $backgroundHeader
+        
 
 .body 
-    padding: 40px 0
-    flex-wrap: wrap
+    @extend %body
 
 .item 
-    flex-grow: 1
-    border-style: solid
-    margin: 8px 3px
-    text-align: center
+    @extend %item   
+    background: $itemColor
+    
+.body
+    .item
+        h2
+            @extend %subTitulos  
+             
 

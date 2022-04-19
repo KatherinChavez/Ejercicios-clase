@@ -1,22 +1,38 @@
 .header {
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  background-color: blueviolet;
+  color: #f7f7f7;
+  padding: 2px;
 }
 
 .body {
-  padding: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .item {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
   -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  border-style: solid;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   margin: 8px 3px;
-  text-align: center;
+}
+
+.body .item h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+.header {
+  background-color: #7e057e;
+}
+
+.item {
+  background: #0beedf;
 }
 /*# sourceMappingURL=base.css.map */
