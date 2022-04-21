@@ -1,9 +1,9 @@
 .header {
+  font-family: Arial;
   font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
   text-align: center;
   color: #f7f7f7;
-  padding: 2px;
 }
 
 .body {
@@ -15,17 +15,13 @@
 }
 
 .item {
+  font-family: Arial;
   font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 20px;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  margin: 8px 3px;
-}
-
-.body .item h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 22px;
+  margin: 11px 11px;
 }
 
 .header {
@@ -33,6 +29,15 @@
 }
 
 .item {
-  background: #0beedf;
+  background: #3edee6;
+}
+
+.item h2 {
+  font-family: sans-serif;
+}
+
+.item p {
+  font-size: 18px;
+  font-weight: bold;
 }
 /*# sourceMappingURL=base.css.map */

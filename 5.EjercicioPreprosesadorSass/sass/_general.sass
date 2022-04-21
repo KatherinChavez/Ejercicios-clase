@@ -1,18 +1,17 @@
 .header
     @extend %titulo
     background-color: $backgroundHeader
-        
 
-.body 
+.body
     @extend %body
 
-.item 
-    @extend %item   
-    background: $itemColor
-    
-.body
-    .item
-        h2
-            @extend %subTitulos  
-             
+.item
+    @extend %item
+    background: $backgroundItem
 
+.item h2
+    font-family: sans-serif
+
+.item  p
+    font-size: 18px
+    font-weight: bold
