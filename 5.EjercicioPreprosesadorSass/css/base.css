@@ -17,7 +17,7 @@
 .item {
   font-family: Arial;
   font-size: 20px;
-  padding: 10px 10px;
+  padding: 10px 9px;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
