@@ -1,16 +1,77 @@
 body
-    font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif
 
 .main-container
-    padding: 10% 10%
-    background-color: $main-color
+  padding: 10% 10%
+  background-color: $main-color
+
+.pb-2
+  padding-bottom: 10px
+
+.px-2
+  padding-left: 15px
+  padding-right: 15px
+
+.mt-2
+  margin-top: 20px
+
+.ml-2
+  margin-left: 13px
 
 .item
-    background-color: $gray
+  background-color: $gray
+
+.d-flex
+  display: flex
+  flex-wrap: wrap
 
 .item p
-    color: $main-color
-   
+  color: $black
+  @extend %general-text
+  @extend .general-text
+
 .item h2 
-    color: $main-color
-   
+  color: $main-color
+  @extend %general-text
+  @extend .general-text
+
+.mixin-container 
+  background-color: #dfe4ea
+  padding: 20px 30px
+  margin: 30px
+
+.content 
+  padding: 20px
+  background-color: #ced6e0
+
+.main-content h2
+  @include text($dark-gray, Helvetica, 22px)
+
+.main-content p
+  @include text($light-gray, monospace , 16px)
+
+.content .btn-send
+  @include btn($main-color, #fff, 140px)
+
+.content .btn-cancel
+  @include btn($danger-color, #fff, 140px)
+
+.main-contact-form
+  padding: 20px
+  background-color: $back-gray
+
+.main-form h1
+  @include text($dark-gray, Helvetica , 30px)
+
+.main-form label
+  @include text($light-gray, monospace , 19px)
+
+.field-container
+  input
+    @extend %input
+
+.contact-btn
+  @include btn($black, #fff, 200px)
+
+.input-error
+  border-bottom: 2px solid $danger-color !important

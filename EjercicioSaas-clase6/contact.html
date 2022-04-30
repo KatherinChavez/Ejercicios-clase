@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="./css/base.css">
+</head>
+
+<body>
+  <div class="main-contact-form">
+    <form class="main-form" novalidate>
+      <div>
+        <h1>Contact Us</h1>
+      </div>
+      <div class="d-flex">
+        <div class="field-container px-2">
+          <div class="pb-2">
+            <label for="name">Name</label>
+          </div>
+          <div>
+            <input type="text" id="name" name="name">
+          </div>
+        </div>
+        <div class="field-container px-2">
+          <div class="pb-2">
+            <label for="Lastname">Lastname</label>
+          </div>
+          <div>
+            <input type="text" id="Lastname" name="Lastname">
+          </div>
+        </div>
+        <div class="field-container px-2">
+          <div class="pb-2">
+            <label for="email">Email</label>
+          </div>
+          <div>
+            <input type="email" id="email" name="email">
+          </div>
+        </div>
+      </div>
+      <div>
+        <button id="btn" class="contact-btn mt-2 ml-2" type="button">Send</button>
+      </div>
+    </form>
+  </div>
+  <script src="./js/validators.js"></script>
+</body>
+</html>
