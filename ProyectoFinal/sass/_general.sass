@@ -1,0 +1,100 @@
+.navbar
+    background-color: $background-white
+
+.nav-item a
+    color: $lightblue-color
+    text-decoration: none
+    padding-left: 20px
+
+.barra
+    border-left: 3px ridge
+    margin-left: 5px
+
+.first-container
+    padding-top: 50px
+    margin-bottom: 40px
+
+.text h2
+    @extend %subtitle
+    color: $color
+
+.text p
+    color: $secondary-color
+
+.col span p
+    font-size: 10px
+    text-align: center
+
+.btn-secondary
+    @include btn($lightblue-color,$lightblue-color)
+    @extend %style-btn
+
+.btn-dark
+    @include btn($main-color,$main-color)
+    @extend %style-btn
+
+.second-container
+    background-color: rgb(235 238 242)
+
+.titulo
+    @include texto(50px, 15px)
+    color: $main-color
+
+.line-vert
+    border-right: 50px ridge
+
+.txt p
+    @include family(arial,15px)
+
+.four-container
+    @include margin(90px,20px)
+    margin-right: 90px
+
+.info h3
+    @extend %subtitle
+    @include family(sans-serif, 25px)
+
+.footer-container
+    background-color: rgb(238, 242, 246)
+
+.list h2
+    @include texto(25px, 15px)
+    color: $main-color
+    margin-left: 32px
+
+.list h3
+    @include margin(32px,1px)
+    color: $main-color
+    font-size: 20px
+
+.list p
+    margin-left: 32px
+
+.list li
+    color: $lightblue-color
+    list-style: none
+
+.color
+    color: $lightblue-color
+
+.license
+    font-size: 13px
+
+.name h3
+    @extend %subtitle
+    margin-top: 20px
+    font-weight: bold
+
+.footer-container-white
+    background-color: $background-white
+
+.container h3
+    @extend %subtitle
+    font-size: 30px
+
+.container p
+    font-size: 13px
+
+.titulo-2 h2
+    @extend %subtitle
+    font-size: 38px
