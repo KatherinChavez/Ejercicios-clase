@@ -1,0 +1,139 @@
+.navbar {
+    background-color: white;
+}
+
+.nav-item a {
+    padding-left: 20px;
+    color: hsl(215, 37%, 36%);
+    text-decoration: none;
+}
+
+.barra {
+    border-left: 3px ridge;
+    margin-left: 5px;
+}
+
+.first-container {
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+
+.text h2 {
+    color: hsl(207, 85%, 18%);
+    font-size: 38px;
+    font-weight: bold;
+}
+
+
+.col span p {
+    font-size: 10px;
+    text-align: center;
+}
+
+.btn-secondary {
+    border-radius: 30px;
+    background-color: hsl(207, 29%, 76%);
+    border-color: hsl(207, 29%, 76%);
+    margin-top: 30px;
+}
+
+.btn-dark {
+    border-radius: 30px;
+    background-color: hsl(207, 85%, 18%);
+    border-color: hsl(207, 85%, 18%);
+    margin-top: 30px;
+}
+
+.second-container {
+    background-color: #ebeef2;
+}
+
+.titulo {
+    color: hsl(207, 85%, 18%);
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
+.line-vert {
+    border-right: 5px ridge;
+}
+
+.txt p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.four-container {
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 20px;
+}
+
+.info h3 {
+    color: hsl(207, 85%, 18%);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: nimbus-sans, sans-serif;
+}
+
+.footer-container {
+    background-color: hsl(210, 33%, 95%);
+}
+
+.list h2 {
+    color: hsl(207, 85%, 18%);
+    font-size: 25px;
+    padding-bottom: 15px;
+    margin-left: 32px;
+}
+
+.list h3 {
+    color: hsl(207, 85%, 18%);
+    font-size: 20px;
+    margin-bottom: 1px;
+    margin-left: 32px;
+}
+
+.list p {
+    margin-left: 32px;
+}
+
+.list li {
+    color: hsl(215, 37%, 36%);
+    list-style: none;
+}
+
+.color {
+    color: hsl(215, 37%, 36%);
+}
+
+.license {
+    font-size: 13px;
+}
+
+.name h3 {
+    margin-top: 20px;
+    color: hsl(207, 85%, 18%);
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.footer-container-white {
+    background-color: white;
+}
+
+.container h3 {
+    color: hsl(207, 85%, 18%);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container p {
+    font-size: 13px;
+}
+
+.titulo-2 h2 {
+    color: hsl(207, 85%, 18%);
+    font-size: 38px;
+    font-weight: bold;
+}

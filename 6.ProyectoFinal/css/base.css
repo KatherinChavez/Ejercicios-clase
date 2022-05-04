@@ -1,0 +1,139 @@
+.text h2, .info h3, .name h3, .container h3, .titulo-2 h2 {
+  color: #073255;
+  font-weight: bold;
+}
+
+.btn-secondary, .btn-dark {
+  border-radius: 30px;
+  margin-top: 30px;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.nav-item a {
+  color: #3a567e;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.barra {
+  border-left: 3px ridge;
+  margin-left: 5px;
+}
+
+.first-container {
+  padding-top: 50px;
+  margin-bottom: 40px;
+}
+
+.text h2 {
+  color: #073255;
+}
+
+.text p {
+  color: #b0c4d4;
+}
+
+.col span p {
+  font-size: 10px;
+  text-align: center;
+}
+
+.btn-secondary {
+  background-color: #3a567e;
+  border-color: #3a567e;
+}
+
+.btn-dark {
+  background-color: #073255;
+  border-color: #073255;
+}
+
+.second-container {
+  background-color: #ebeef2;
+}
+
+.titulo {
+  font-size: 50px;
+  padding-bottom: 15px;
+  color: #073255;
+}
+
+.line-vert {
+  border-right: 5px ridge;
+}
+
+.txt p {
+  font-family: arial;
+  font-size: 15px;
+}
+
+.four-container {
+  margin-left: 90px;
+  margin-bottom: 20px;
+  margin-right: 90px;
+}
+
+.info h3 {
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+.footer-container {
+  background-color: #eef2f6;
+}
+
+.list h2 {
+  font-size: 25px;
+  padding-bottom: 15px;
+  color: #073255;
+  margin-left: 32px;
+}
+
+.list h3 {
+  margin-left: 32px;
+  margin-bottom: 1px;
+  color: #073255;
+  font-size: 20px;
+}
+
+.list p {
+  margin-left: 32px;
+}
+
+.list li {
+  color: #3a567e;
+  list-style: none;
+}
+
+.color {
+  color: #3a567e;
+}
+
+.license {
+  font-size: 13px;
+}
+
+.name h3 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.footer-container-white {
+  background-color: white;
+}
+
+.container h3 {
+  font-size: 30px;
+}
+
+.container p {
+  font-size: 13px;
+}
+
+.titulo-2 h2 {
+  font-size: 38px;
+}
+/*# sourceMappingURL=base.css.map */
