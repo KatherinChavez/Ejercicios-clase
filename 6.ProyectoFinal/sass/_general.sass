@@ -1,7 +1,7 @@
 .navbar
     background-color: $background-white
 
-.nav-item a 
+.nav-item a
     color: $lightblue-color
     text-decoration: none
     padding-left: 20px
@@ -14,19 +14,19 @@
     padding-top: 50px
     margin-bottom: 40px
 
-.text h2 
+.text h2
     @extend %subtitle
-    color: $main-color 
+    color: $main-color
 
-.text p 
+.text p
     color: $secondary-color
 
-.col span p 
+.col span p
     font-size: 10px
     text-align: center
 
 .btn-secondary
-    @include btn($btn-secondary,$btn-secondary) 
+    @include btn($btn-secondary,$btn-secondary)
     @extend %style-btn
 
 .btn-dark
@@ -40,22 +40,22 @@
     @include texto(50px,15px)
     color: $main-color
 
-.line-vert 
+.line-vert
     border-right: 5px ridge
 
-.txt p 
+.txt p
     @include family(arial,15px)
 
 .four-container
     @include margin(90px,20px)
     margin-right: 90px
 
-.info h3 
+.info h3
     @extend %subtitle
-    @include family(sans-serif,25px)    
+    @include family(sans-serif,25px)
 
 .footer-container
-    background-color: $footer-color 
+    background-color: $footer-color
 
 .list h2
     @include texto(25px, 15px)
@@ -97,7 +97,28 @@
 
 .titulo-2 h2
     @extend %subtitle
-    font-size: 38px 
+    font-size: 38px
 
 .contact-container
-    @include margin(42px,1px)
+    padding-left: 50px
+    margin-top: 50px
+
+.contact h1
+    @extend %subtitle
+    font-size: 40px
+
+.contact h2
+    @extend %subtitle
+    font-size: 47px
+
+.contact h3
+    @extend %subtitle
+    font-size: 29px
+
+.form-floating > label
+    left: 13px
+
+.form-box
+    border-radius: 30px
+    background-color: $second-container
+    border-color: $second-container
