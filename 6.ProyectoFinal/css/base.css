@@ -8,6 +8,11 @@
   margin-top: 30px;
 }
 
+.second-container, .footer-container, .footer-container-white {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 .navbar {
   background-color: white;
 }
