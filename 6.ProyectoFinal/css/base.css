@@ -1,4 +1,4 @@
-.text h2, .info h3, .name h3, .container h3, .titulo-2 h2, .contact h1, .contact h2, .contact h3 {
+.text h2, .info h3, .name h3, .container h3, .titulo-2 h2, .contact h1, .contact h2, .contact h3, .hover h2 {
   color: #073255;
   font-weight: bold;
 }
@@ -167,5 +167,62 @@
   border-radius: 30px;
   background-color: #ebeef2;
   border-color: #ebeef2;
+}
+
+.hover {
+  width: 350px;
+  height: 280px;
+  margin: 0px auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.hover h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+  z-index: 2;
+  -webkit-transform: all 30ms;
+          transform: all 30ms;
+}
+
+.hover:hover h2 {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+}
+
+.hover:before, .hover:after {
+  width: 500px;
+  height: 400px;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #eef2f6;
+  opacity: 0.6;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+.hover:before {
+  -webkit-transform: rotate(45deg) translateY(-550px) translateX(0px);
+          transform: rotate(45deg) translateY(-550px) translateX(0px);
+}
+
+.hover:after {
+  -webkit-transform: rotate(45deg) translateY(550px) translateX(-60px);
+          transform: rotate(45deg) translateY(550px) translateX(-60px);
+}
+
+.hover:hover:before {
+  -webkit-transform: rotate(45deg) translateY(-240px) translateX(0px);
+          transform: rotate(45deg) translateY(-240px) translateX(0px);
+}
+
+.hover:hover:after {
+  -webkit-transform: rotate(45deg) translateY(160px) translateX(-60px);
+          transform: rotate(45deg) translateY(160px) translateX(-60px);
 }
 /*# sourceMappingURL=base.css.map */

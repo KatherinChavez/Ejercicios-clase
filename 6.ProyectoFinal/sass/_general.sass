@@ -125,3 +125,43 @@
     border-radius: 30px
     background-color: $second-container
     border-color: $second-container
+
+.hover
+    @include width(350px,280px)
+    margin: 0px auto
+    overflow: hidden
+    position: relative
+
+.hover h2
+    @extend %subtitle
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%) scale(0)
+    z-index: 2
+    transform: all 30ms
+
+.hover:hover h2
+    transform: translate(-50%,-50%) scale(1)
+
+.hover:before,.hover:after
+    @include width(500px,400px)
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    background-color: $footer-color
+    opacity: 0.6
+    transition: all 300ms
+
+.hover:before
+    transform: rotate(45deg) translateY(-550px) translateX(0px)
+
+.hover:after
+    transform: rotate(45deg) translateY(550px) translateX(-60px)
+
+.hover:hover:before
+    transform: rotate(45deg) translateY(-240px) translateX(0px)
+
+.hover:hover:after
+    transform: rotate(45deg) translateY(160px) translateX(-60px)
